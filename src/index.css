@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.nav{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+}
+.nav .logo h1{
+  color: black;
+  font-size: 1.6rem;
+}
+.nav .logo #logo-h1{
+  text-decoration: none;
+}
+.nav-links{
+  display: flex;
+  gap: 1rem;
+}
+.nav-links #links{
+  color: black;
+  text-decoration: none;
+
+}
+
+.form-container {
+  display: flex;               /* Use Flexbox for centering */
+  flex-direction: column;      /* Stack items vertically */
+  align-items: center;        /* Center horizontally */
+  justify-content: center;    /* Center vertically */
+  height: 50vh;              /* Take full height of the viewport */
+  padding: 20px;              /* Padding around the container */
+}
+
+form {
+  background-color: #fff;      /* White background for the form */
+  padding: 20px;               /* Padding inside the form */
+  border-radius: 8px;          /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 300px;                /* Set a fixed width for the form */
+}
+
+label {
+  margin-bottom: 8px;         /* Space between label and input */
+  font-weight: bold;          /* Bold labels */
+}
+
+input {
+  width: 80%;                /* Full width for inputs */
+  padding: 10px;              /* Padding inside the input */
+  margin-bottom: 20px;        /* Space between inputs */
+  border: 1px solid #ccc;     /* Light border */
+  border-radius: 4px;         /* Slightly rounded corners */
+}
+
+button {
+  background-color: #0d0d0e;  /* Bootstrap primary color */
+  color: white;               /* White text color */
+  padding: 10px;              /* Padding inside button */
+  border: none;               /* No border */
+  border-radius: 4px;        /* Slightly rounded corners */
+  cursor: pointer;            /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #3e3f3f;  /* Darker blue on hover */
+}
+
+.register-link {
+  display: block;                /* Make it a block element */
+  margin-bottom: 10px;          /* Space between link and button */
+  color: #007bff;               /* Bootstrap primary color */
+  text-decoration: underline;    /* Underline text */
+}
+
+.register-link:hover {
+  color: #0056b3;               /* Darker color on hover */
+}
+
+
+
+
