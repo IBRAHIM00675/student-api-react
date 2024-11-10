@@ -40,10 +40,9 @@
   height: 50vh;              
   padding: 20px;             
 }
-.form-container h2{
-  font-size: larger;
-  margin-top: 20px;
-
+.add{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 form {
@@ -80,16 +79,47 @@ button:hover {
   background-color: #3e3f3f;  
 }
 
-.register-link {
-  display: block;                
-  margin-bottom: 10px;          
-  color: #007bff;               
-  text-decoration: underline;    
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
 }
 
-.register-link:hover {
-  color: #0056b3;              
+.table td {
+  font-size: 14px;
+  color: #555;
 }
+
+.table th {
+  font-size: 16px;
+  color: #fff;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-toggle {
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #0056b3;
+  color: white;
+}
+.all{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.edit{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
 
 
 
