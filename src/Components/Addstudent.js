@@ -39,7 +39,7 @@ const AddStudent = () => {
 
   return (
     <div className="form-container">
-      <h2>Add New Student</h2>
+      <h2 className="add">Add New Student</h2>
       <form onSubmit={saveStudent}>
         <div>
           <label>Firstname:</label>
