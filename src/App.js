@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import AddStudent from './Components/AddStudent';
 import AllStudents from './Components/AllStudents';
 import UpdateStudent from './Components/UpdateStudent';
+import Login from './Components/Login';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
             <Route path="/all-students" component={AllStudents} />
             <Route path="/add-student" component={AddStudent} />
             <Route path="/updatestudent/:id" component={UpdateStudent} />
-          </Switch>
+            <Route path="/login" component={Login}    /> 
+                 </Switch>
         </div>
       </div>
     </Router>
