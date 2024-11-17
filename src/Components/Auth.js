@@ -35,7 +35,7 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  const logout = () => {
+  const logout = (navigate) => {
     setIsAuthenticated(false);
     sessionStorage.removeItem("accessToken");
     navigate.push("/");
