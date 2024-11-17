@@ -118,7 +118,18 @@ button:hover {
   text-align: center;
   font-size: 1.5rem;
 }
+.register{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.pa{
+  margin-bottom: 10px;
+}
+.pa a{
+  color: #007bff;
 
+}
 
 
 
