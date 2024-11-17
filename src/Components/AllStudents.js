@@ -23,7 +23,7 @@ const AllStudents = () => {
   useEffect(() => {
     const token = sessionStorage.getItem("accessToken");
     axios
-      .get("http://localhost:4000/retrievestudents", {
+    .get("http://localhost:4000/retrievestudents", {
         headers: {
           Authorization: `Bearer ${token}`,
           "Content-Type": "application/json",
